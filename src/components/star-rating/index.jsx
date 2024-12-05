@@ -12,7 +12,7 @@ const StarRating = ({noOfStars=5}) => {
     function handleMouseEnter(getCurrentIndex){
         setHover(getCurrentIndex);
     }
-    function handleMouseLeave(getCurrentIndex){
+    function handleMouseLeave(){
         setHover(rating)
     }
   return (
@@ -25,7 +25,7 @@ const StarRating = ({noOfStars=5}) => {
             className={index <= (hover || rating) ? 'active' : 'inactive'}
             onClick={()=>handleClick(index)}
             onMouseMove={()=>handleMouseEnter(index)}
-            onMouseLeave={()=>handleMouseLeave(index)}
+            onMouseLeave={()=>handleMouseLeave()}
             size={40}
         />
         );
