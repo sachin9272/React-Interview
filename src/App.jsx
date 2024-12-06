@@ -4,8 +4,8 @@ import Accordian from './components/accordian/index'
 import RandomColor from './components/random color'
 import StarRating from './components/star-rating'
 import LoadMoreData from './components/load-more-data'
-import Countdown from './components/countdown-timer/countdown'
 import Scroll from './components/scroll-to-particular/Scroll'
+import Weather from './components/weatherApp/Weather'
 function App() {
 
   return (
@@ -23,7 +23,10 @@ function App() {
       {/* <LoadMoreData/> */}
 
       {/* Scroll to a particular section */}
-      <Scroll/>
+      {/* <Scroll/> */}
+
+      {/* Weather App */}
+      <Weather/>
     </div>
   )
 }
