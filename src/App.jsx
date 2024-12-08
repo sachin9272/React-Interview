@@ -6,6 +6,7 @@ import StarRating from './components/star-rating'
 import LoadMoreData from './components/load-more-data'
 import Scroll from './components/scroll-to-particular/Scroll'
 import Weather from './components/weatherApp/Weather'
+import TicTacToe from './components/tic-tac-toe/TicTacToe'
 function App() {
 
   return (
@@ -26,7 +27,10 @@ function App() {
       {/* <Scroll/> */}
 
       {/* Weather App */}
-      <Weather/>
+      {/* <Weather/> */}
+
+      {/* Tic Tac Toe */}
+      <TicTacToe/>
     </div>
   )
 }
